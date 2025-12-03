@@ -8,7 +8,7 @@ def _run_ip_check():
     filepath = "main/_File/__ip_check__.py"
 
     if not os.path.exists(filepath):
-        print(f"-  error: file {file_path} not found")
+        print(f"-  error: file {filepath} not found")
         return
 
     try:
@@ -20,3 +20,4 @@ def _run_ip_check():
 
 if __name__ == "__main__":
     _run_ip_check()
+
